@@ -1,1 +1,1 @@
-# dotfiles2-dwm-
+# dotfiles2-dwm
