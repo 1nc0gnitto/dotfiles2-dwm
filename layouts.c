@@ -24,4 +24,4 @@ grid(Monitor *m) {
 		resize(c, cx, cy, cw - 2 * c->bw + aw, ch - 2 * c->bw + ah, False);
 		i++;
 	}
-
+}
