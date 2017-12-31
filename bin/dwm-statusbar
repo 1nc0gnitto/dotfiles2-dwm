@@ -4,6 +4,8 @@
 #
 # Status bar for dwm. Expanded from:
 # https://bitbucket.org/jasonwryan/eeepc/src/73dadb289dead8ef17ef29a9315ba8f1706927cb/Scripts/dwm-status
+#
+# Adapted by: >1nc0gnito_
 
 # Colour codes from dwm/config.h
 colour_gry="\x01" # grey on black

@@ -2,6 +2,7 @@
 #
 # ~/bin/dwm-start
 #
+# by: >1nc0gnito_
 
 $HOME/bin/dwm-statusbar &
 
