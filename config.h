@@ -25,24 +25,27 @@ static const Bool showbar           = True;     /* False means no bar */
 static const Bool topbar            = True;     /* False means bottom bar */
 
 /* tagging */
-static const char *tags[] = { "À", "Á", "Â", "Ã", "Ä", "Å", "Æ", "Ç","È" };
+static const char *tags[] = { "À", "Á", "Â", "Ã", "È", "Ä", "Å", "Æ", "Ç" };
 
 static const Rule rules[] = {
    /* class                      instance     title  tags mask isfloating  iscentred   monitor */
-   { "feh",                      NULL,        NULL,  0,        True,       True,       -1 },
-   { "Thunar",                   NULL,        NULL,  0,        False,      True,       -1 },
+   { "Nitrogen",                 NULL,        NULL,  0,        True,       True,       -1 },
    { "XFontSel",                 NULL,        NULL,  0,        True,       True,       -1 },
-   { "Xfd",                      NULL,        NULL,  0,        True,       True,       -1 },
-   { "Firefox",                  NULL,        NULL,  1,        False,      False,      -1 },
-   { "Zathura",                  NULL,        NULL,  1 << 3,   False,      False,      -1 },
-   { "libreoffice-calc",         NULL,        NULL,  1 << 3,   False,      False,      -1 },
-   { "libreoffice-impress",      NULL,        NULL,  1 << 3,   False,      False,      -1 },
-   { "libreoffice-startcenter",  NULL,        NULL,  1 << 3,   False,      False,      -1 },
-   { "libreoffice-writer",       NULL,        NULL,  1 << 3,   False,      False,      -1 },
-   { "mpv",                      NULL,        NULL,  1 << 4,   False,      False,      -1 },
-   { "Gimp",                     NULL,        NULL,  1 << 5,   False,      True,       -1 },
-   { "URxvt",                    "filemgr",   NULL,  1 << 6,   False,      False,      -1 },
-   { "Chromium",                 NULL,        NULL,  1 << 7,   False,      False,      -1 },
+   { "Firefox",                  NULL,        NULL,  0,        False,      False,      -1 },
+   { "Chromium",                 NULL,        NULL,  0,        False,      False,      -1 },
+   { "Feh",                      NULL,        NULL,  1 << 1,   True,       True,       -1 },
+   { "Thunar",                   NULL,        NULL,  1 << 3,   False,      True,       -1 },
+   { "Zathura",                  NULL,        NULL,  1 << 4,   False,      False,      -1 },
+   { "Wps",                      NULL,        NULL,  1 << 5,   False,      False,      -1 },
+   { "Et",                       NULL,        NULL,  1 << 5,   False,      False,      -1 },
+   { "Wpp",                      NULL,        NULL,  1 << 5,   False,      False,      -1 },
+   { "Mpv",                      NULL,        NULL,  1 << 4,   False,      True,       -1 },
+   { "Gimp",                     NULL,        NULL,  1 << 7,   False,      True,       -1 },
+   { "Vlc",                      NULL,        NULL,  1 << 4,   False,      False,      -1 },
+   { "VirtualBox",               NULL,        NULL,  1 << 5,   False,      False,      -1 },
+   { "Anki",                     NULL,        NULL,  1 << 2,   False,      False,      -1 },
+   { "Lxmusic",                  NULL,        NULL,  1 << 3,   False,      False,      -1 },
+   { "Spotify",                  NULL,        NULL,  1 << 6,   False,      False,      -1 },
 };
 
 /* layout(s) */
